@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="6" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[Window is maximized]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to application]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from application]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to application]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from application]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to application]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from application]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to application]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from application]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to application]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from application]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to application]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from application]]>
+    </line>
+    <line>
+      <![CDATA[Quitted the browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45007" started-at="2022-08-09T12:20:18Z" finished-at="2022-08-09T12:21:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45007" started-at="2022-08-09T12:20:18Z" finished-at="2022-08-09T12:21:03Z">
+      <class name="Login.ReadingDataFromExcel_Test">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="launchbrowser" is-config="true" duration-ms="13607" started-at="2022-08-09T17:50:04Z" finished-at="2022-08-09T17:50:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[Window is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="Navigateapp()[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="Navigateapp" is-config="true" duration-ms="10799" started-at="2022-08-09T17:50:23Z" finished-at="2022-08-09T17:50:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Navigateapp -->
+        <test-method status="PASS" signature="readingData(java.lang.String, java.lang.String)[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="readingData" duration-ms="8786" started-at="2022-08-09T17:50:33Z" data-provider="test data" finished-at="2022-08-09T17:50:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mujeeb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[krpet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readingData -->
+        <test-method status="PASS" signature="logoutOperation(org.testng.ITestResult)[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="logoutOperation" is-config="true" duration-ms="2" started-at="2022-08-09T17:50:42Z" finished-at="2022-08-09T17:50:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readingData status=SUCCESS method=ReadingDataFromExcel_Test.readingData(java.lang.String, java.lang.String)[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out from application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method status="PASS" signature="Navigateapp()[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="Navigateapp" is-config="true" duration-ms="4107" started-at="2022-08-09T17:50:42Z" finished-at="2022-08-09T17:50:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Navigateapp -->
+        <test-method status="PASS" signature="readingData(java.lang.String, java.lang.String)[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="readingData" duration-ms="3033" started-at="2022-08-09T17:50:46Z" data-provider="test data" finished-at="2022-08-09T17:50:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nagavar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readingData -->
+        <test-method status="PASS" signature="logoutOperation(org.testng.ITestResult)[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="logoutOperation" is-config="true" duration-ms="1" started-at="2022-08-09T17:50:49Z" finished-at="2022-08-09T17:50:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readingData status=SUCCESS method=ReadingDataFromExcel_Test.readingData(java.lang.String, java.lang.String)[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out from application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method status="PASS" signature="Navigateapp()[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="Navigateapp" is-config="true" duration-ms="2467" started-at="2022-08-09T17:50:49Z" finished-at="2022-08-09T17:50:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Navigateapp -->
+        <test-method status="PASS" signature="readingData(java.lang.String, java.lang.String)[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="readingData" duration-ms="1725" started-at="2022-08-09T17:50:52Z" data-provider="test data" finished-at="2022-08-09T17:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qspider]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hbr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readingData -->
+        <test-method status="PASS" signature="logoutOperation(org.testng.ITestResult)[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="logoutOperation" is-config="true" duration-ms="1" started-at="2022-08-09T17:50:54Z" finished-at="2022-08-09T17:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readingData status=SUCCESS method=ReadingDataFromExcel_Test.readingData(java.lang.String, java.lang.String)[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out from application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method status="PASS" signature="Navigateapp()[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="Navigateapp" is-config="true" duration-ms="1002" started-at="2022-08-09T17:50:54Z" finished-at="2022-08-09T17:50:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Navigateapp -->
+        <test-method status="FAIL" signature="readingData(java.lang.String, java.lang.String)[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="readingData" duration-ms="1220" started-at="2022-08-09T17:50:55Z" data-provider="test data" finished-at="2022-08-09T17:50:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[it]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+	at Login.ReadingDataFromExcel_Test.readingData(ReadingDataFromExcel_Test.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readingData -->
+        <test-method status="PASS" signature="logoutOperation(org.testng.ITestResult)[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="logoutOperation" is-config="true" duration-ms="798" started-at="2022-08-09T17:50:56Z" finished-at="2022-08-09T17:50:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readingData status=FAILURE method=ReadingDataFromExcel_Test.readingData(java.lang.String, java.lang.String)[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out from application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method status="PASS" signature="Navigateapp()[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="Navigateapp" is-config="true" duration-ms="1310" started-at="2022-08-09T17:50:57Z" finished-at="2022-08-09T17:50:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Navigateapp -->
+        <test-method status="FAIL" signature="readingData(java.lang.String, java.lang.String)[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="readingData" duration-ms="1979" started-at="2022-08-09T17:50:58Z" data-provider="test data" finished-at="2022-08-09T17:51:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+	at Login.ReadingDataFromExcel_Test.readingData(ReadingDataFromExcel_Test.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readingData -->
+        <test-method status="PASS" signature="logoutOperation(org.testng.ITestResult)[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="logoutOperation" is-config="true" duration-ms="181" started-at="2022-08-09T17:51:00Z" finished-at="2022-08-09T17:51:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readingData status=FAILURE method=ReadingDataFromExcel_Test.readingData(java.lang.String, java.lang.String)[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out from application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method status="PASS" signature="Navigateapp()[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="Navigateapp" is-config="true" duration-ms="1158" started-at="2022-08-09T17:51:00Z" finished-at="2022-08-09T17:51:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Navigateapp -->
+        <test-method status="PASS" signature="readingData(java.lang.String, java.lang.String)[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="readingData" duration-ms="1599" started-at="2022-08-09T17:51:01Z" data-provider="test data" finished-at="2022-08-09T17:51:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[married]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readingData -->
+        <test-method status="PASS" signature="logoutOperation(org.testng.ITestResult)[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="logoutOperation" is-config="true" duration-ms="1" started-at="2022-08-09T17:51:03Z" finished-at="2022-08-09T17:51:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readingData status=SUCCESS method=ReadingDataFromExcel_Test.readingData(java.lang.String, java.lang.String)[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out from application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method status="PASS" signature="tearDownBrowser()[pri:0, instance:Login.ReadingDataFromExcel_Test@4909b8da]" name="tearDownBrowser" is-config="true" duration-ms="996" started-at="2022-08-09T17:51:03Z" finished-at="2022-08-09T17:51:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Quitted the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+      </class> <!-- Login.ReadingDataFromExcel_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
